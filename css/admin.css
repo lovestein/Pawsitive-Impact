@@ -1,0 +1,40 @@
+/* Imported Font */
+@font-face {
+    font-family: Changa;
+    src: url(../Font/ChangaOne-Regular.ttf);
+}
+/* Headers Font */
+h1,h2,h3,h4,h5,h6 {
+    font-family: Changa, serif;
+}
+/* Global Identity */
+body {
+    background-color: #FBFCFF;
+    color: #261A36;
+}
+
+.adminSidebar {
+    background-color: #FF9C00;
+    min-height: 100vh;
+}
+
+.adminSidebar a{
+    color: #261A36;
+    border-top: 2px solid #FBFCFF;
+}
+
+.adminSidebar a:hover{
+    color: #6C00FF;
+}
+
+.main_content{
+    background-color: #FBFCFF;
+}
+
+.adminTopbar {
+    border-bottom: 2px solid #FF9C00;
+}
+
+.adminTopbar a{
+    color: #261A36;
+}

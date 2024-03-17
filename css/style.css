@@ -1,0 +1,71 @@
+/* Imported Font */
+@font-face {
+    font-family: Changa;
+    src: url(../Font/ChangaOne-Regular.ttf);
+}
+/* Headers Font */
+h1,h2,h3,h4,h5,h6 {
+    font-family: Changa, serif;
+}
+/* Global Identity */
+body {
+    background-color: #FBFCFF;
+    color: #261A36;
+}
+/* Header #FBFCFF  #FF9C00*/
+#headerNav a {
+    color: #261A36;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+#headerNav a:hover {
+    color: #FF9C00;
+}
+/* Footer */
+.footerNav {
+    border-top: 3px solid #261A36;
+}
+.footerNav a {
+    color: #FF9C00;
+    font-weight: 600;
+}
+
+.col-md-3 .mylinks {
+    color: #261A36;
+}
+
+.col-md-3 .mylinks:hover{
+    color: #FF9C00;
+}
+.copyrightFooter .col{
+    font-weight: 600;
+    border-top: 1px solid silver;
+}
+/* Buttons */
+.btn-1{
+    /* padding: 10px; */
+    /* border-radius: 16px; */
+    background-color: #FF9C00;
+}
+.btn-1:hover{
+    font-weight: 600;
+    color: #FBFCFF;
+    background-color: #6C00FF;
+}
+/* Admin Sidebar */
+#admin_sidebar{
+    background-color: #000;
+}
+
+.content{
+    min-height: 100vh;
+    width: 100%;
+}
+
+#adminSidebar{
+    background-color: #000;
+}
+
